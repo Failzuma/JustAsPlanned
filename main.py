@@ -17,6 +17,6 @@ features = [
 # Write to memory
 for address, value in features:
     kernel32.WriteProcessMemory(handle, address, ctypes.byref(value), ctypes.sizeof(value), None)
-print("Done!")
+print("Succesfully unlocked everything!")
 kernel32.CloseHandle(handle) 
 
