@@ -10,9 +10,9 @@ base_address = utility.GetModuleBaseAddress(pid, "GameAssembly.dll")
 
 # Feature
 features = [
-    (ctypes.c_ulonglong(base_address + 0x15DF0F0), ctypes.c_int(0x0001B848)),
-    (ctypes.c_ulonglong(base_address + 0x15DF7F0), ctypes.c_int(0xDE4785B8)), 
-    (ctypes.c_ulonglong(base_address + 0xB40F90), ctypes.c_int(0x0001B848)), 
+    (ctypes.c_ulonglong(base_address + 0x130B580), ctypes.c_int(0x0001B848)),
+    (ctypes.c_ulonglong(base_address + 0x130BC80), ctypes.c_int(0xDE4785B8)), 
+    (ctypes.c_ulonglong(base_address + 0x223C020), ctypes.c_int(0x0001B848)), 
 ]
 # Write to memory
 for address, value in features:
