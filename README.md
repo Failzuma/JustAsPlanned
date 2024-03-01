@@ -14,3 +14,5 @@ The `consts.py`, `main.py`, and `utility.py` is not needed if you use the `patch
 2. Then run `patch_ga.py` (`python patch_ga.py`)
 3. Wait for a while until it generated `GameAssembly_patched.dll`
 4. Put `GameAssembly_patched.dll` to your Muse Dash directory and rename it to `GameAssembly.dll`
+
+# For faster version written in C++ check `master` branch!
